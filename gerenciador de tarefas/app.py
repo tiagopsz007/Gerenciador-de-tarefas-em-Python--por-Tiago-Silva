@@ -37,7 +37,7 @@ def validar_prioridade(p):
     return p in ["Baixa", "Média", "Alta"]
 
 
-# -------- FUNÇÕES --------
+# -------- FUNÇÕES CRIAR --------
 def criar():
     conexao = conectar()
     cursor = conexao.cursor()
@@ -64,6 +64,7 @@ def criar():
     from tkinter import messagebox
     messagebox.showinfo("Sucesso", "Tarefa criada!")
 
+# -------- FUNÇÕES LISTAR --------
 
 def listar():
     textbox.delete("0.0", "end")
@@ -88,6 +89,7 @@ Data: {row[5]}
     cursor.close()
     conexao.close()
 
+# -------- FUNÇÕES DELETAR --------
 
 def deletar():
     id_tarefa = entry_id.get()
@@ -112,6 +114,7 @@ def deletar():
     listar()
     limpar()
 
+# -------- FUNÇÕES UPDATE --------
 
 def atualizar():
     id_tarefa = entry_id.get()
