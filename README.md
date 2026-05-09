@@ -28,7 +28,6 @@ Aplicação desktop para gerenciamento de tarefas, desenvolvida com Python, Cust
 │   └── tests/
 │       ├── customtkinter.py
 │       └── test_app.py
-└── README.md
 ```
 
 ---
