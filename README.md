@@ -18,16 +18,18 @@ Aplicação desktop para gerenciamento de tarefas, desenvolvida com Python, Cust
 ## 📁 Estrutura do Projeto
 
 ```
-├── gerenciador de tarefas/
-│    ├── .github/
-│     └── workflows/
+repositorio/
+├── .github/
+│   └── workflows/
 │       └── ci.yml
+├── gerenciador de tarefas/
 │   ├── app.py
 │   ├── PROJETO_CDC.sql
 │   ├── README.md
 │   └── tests/
 │       ├── customtkinter.py
 │       └── test_app.py
+└── README.md
 ```
 
 ---
